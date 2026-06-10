@@ -1,24 +1,24 @@
 class Statusline < Formula
   desc "Claude Code statusline with usage tracking"
   homepage "https://github.com/ryanclark/statusline"
-  version "0.1.4"
+  version "1.0.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/ryanclark/statusline/releases/download/v0.1.4/statusline-aarch64-apple-darwin.tar.gz"
-      sha256 "88006b72ec899f07a532e60d1b5796dde0afd0a4ed4ba5a3d2c92184efeaf52c"
+      url "https://github.com/ryanclark/statusline/releases/download/v1.0.0/statusline-aarch64-apple-darwin.tar.gz"
+      sha256 "1e5f6645012cfef51063919334a60c9bef5bccb3de3bb2bf41568e4d63b02772"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ryanclark/statusline/releases/download/v0.1.4/statusline-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "40239ae25f3c0c0e23e746e4c522a4d5eed800e3446bf8c569a34f113487689c"
+      url "https://github.com/ryanclark/statusline/releases/download/v1.0.0/statusline-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "cd03a202a994bee8b22a025583e8a923f490eb1458c06d92481efbd58d09081c"
     end
     on_intel do
-      url "https://github.com/ryanclark/statusline/releases/download/v0.1.4/statusline-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "3dfeec7a82bde959193129ed52c96015f8b536397e7731174c763fc51cb228d1"
+      url "https://github.com/ryanclark/statusline/releases/download/v1.0.0/statusline-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "214fb8edc34b0a33653c72dbf33d5f39e97651eb23e2fe5a0e579bd8fdcd4596"
     end
   end
 
